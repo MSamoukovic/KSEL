@@ -1,0 +1,36 @@
+body{
+    font-family: 'Proza Libre', sans-serif;
+}
+
+
+.carousel-indicators li {
+    border-radius: 50%!important;
+    height: 10px!important;
+    width: 10px!important;
+    margin-right: 15px;
+    background-color: silver;
+    padding: 2px;
+}
+
+.carousel-indicators .active{
+    background-color: green;
+}
+
+
+.carousel-indicators  {
+position: relative;
+margin-left: 0px;
+}
+
+
+ .rounded-top{
+    border-top-left-radius: 8%!important;
+    border-top-right-radius: 8%!important;
+}
+
+
+.rounded-bottom  {
+    border-bottom-left-radius: 8%!important;
+    border-bottom-right-radius: 8%!important;
+} 
+
