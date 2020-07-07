@@ -1,0 +1,31 @@
+@media screen and (min-width: 991px) {
+
+    h1{
+        font-size: 72px;
+    }
+
+    h2{
+        font-size: 64px;
+    }
+
+
+    h5{
+        font-size: 24px;
+    }
+
+    .font-size-24{
+        font-size: 24px!important;
+    }
+
+    .letter-spaccing{
+        letter-spacing: 1px;
+    }
+
+    .color-green{
+        color:#1c6e26!important;
+    }
+    
+    .sagoe-print{
+        color:rgb(150, 152, 154)!important;
+    }
+}

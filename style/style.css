@@ -1,7 +1,7 @@
 body{
     font-family: 'Proza Libre', sans-serif;
+    color: white;
 }
-
 
 .carousel-indicators li {
     border-radius: 50%!important;
@@ -23,14 +23,69 @@ margin-left: 0px;
 }
 
 
+.rounded{
+    border-radius: 3rem!important;
+}
+
  .rounded-top{
-    border-top-left-radius: 8%!important;
-    border-top-right-radius: 8%!important;
+    border-top-left-radius: 3rem!important;
+    border-top-right-radius: 3rem!important;
+}
+
+.rounded-bottom  {
+    border-bottom-left-radius: 3rem!important;
+    border-bottom-right-radius:3rem!important;
+} 
+
+.rounded-left-side{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.rounded-right-side{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.bg-green{
+    background-color: #1c6e26;
+}
+
+.bg-silver{
+    background-image: url("../images/bg-silver.PNG");
+}
+
+.img-top-right-radius{
+    position: absolute;
+}
+
+.img-lg-top-left-radius{
+    position: absolute;
+    padding-right: 635px;
+    padding-top:140px;
+
+}
+.bg-image{
+    position: absolute;
+    margin-right: 150px;
+  
+}
+
+.input-group-text{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+}
+
+.line-below-the-img{
+    position: absolute;
+    padding-left:220px;
+    padding-top:515px;
 }
 
 
-.rounded-bottom  {
-    border-bottom-left-radius: 8%!important;
-    border-bottom-right-radius: 8%!important;
-} 
-
+.media-icon-size{
+width: 37px;
+height: 37px;
+background-color: #939498;
+}
