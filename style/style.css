@@ -23,9 +23,7 @@ margin-left: 0px;
 }
 
 
-.rounded{
-    border-radius: 3rem!important;
-}
+
 
  .rounded-top{
     border-top-left-radius: 3rem!important;
@@ -57,12 +55,15 @@ margin-left: 0px;
 
 .img-top-right-radius{
     position: absolute;
+    z-index: 1;
 }
 
 .img-lg-top-left-radius{
     position: absolute;
-    padding-right: 635px;
+    padding-right:520px;
     padding-top:140px;
+
+ 
 
 }
 .bg-image{
@@ -80,7 +81,7 @@ margin-left: 0px;
 .line-below-the-img{
     position: absolute;
     padding-left:220px;
-    padding-top:515px;
+    padding-top:470px;
 }
 
 
@@ -89,3 +90,62 @@ width: 37px;
 height: 37px;
 background-color: #939498;
 }
+
+.background-logo{
+    position: absolute;
+    margin-left: 50px;
+    z-index: 1;
+}
+
+.img-line-before-women{
+    position: absolute;
+    padding-bottom: 80px;
+    /* margin-right: 70px; */
+
+}
+
+
+@media screen and (min-width: 991px) {
+    .rounded{
+        border-radius: 3rem!important;
+    }
+    .one-team-div-position{
+        margin-top:-11rem;
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+.first-sm-line{
+    position: absolute;
+    margin-left:200px;
+    margin-top:125px;
+}
+.rounded{
+    border-radius: 2rem!important;
+}
+
+.background-sm-logo{
+    position: absolute;
+    margin-right: 50px;
+}
+
+.line-bellow-sm-img{
+    position: absolute;
+    margin-left:30px;
+}
+
+.one-team-div-position{
+    margin-top:-5rem;
+}
+
+}
+
+.line-for-img{
+    position: absolute;
+    bottom: 0px;
+
+}
+
+
