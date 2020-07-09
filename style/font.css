@@ -1,12 +1,16 @@
-
-
-.letter-spaccing{
+.letter-spaccing-1{
     letter-spacing: 1px;
 }
+
+::placeholder, .color-gray{
+    color: rgb(150, 152 , 154)!important;
+}
+
 
 .color-green{
     color:#1c6e26!important;
 }
+
 
 .sagoe-print{
     color:rgb(150, 152, 154)!important;
@@ -16,16 +20,15 @@
     font-size: 24px!important;
 }
 
+
 @media screen and (min-width: 991px) {
     h1{
         font-size: 72px;
     }
     
     h2{
-        font-size: 64px;
+        font-size: 65px;
     }
-
-
 
     h4{
         font-size: 40px;
@@ -34,38 +37,95 @@
     h5{
         font-size: 24px;
     }
+
+    .font-size-15{
+        font-size: 15px;
+    }
+
+    .font-size-14{
+        font-size: 14px;
+    }
+
+    .letter-lg-spaccing-xxs{
+        letter-spacing: -4px;
+    }
+
+    .letter-spaccing{
+        letter-spacing: 0.4px;
+    }
+
+    .letter-spaccing-small{
+        letter-spacing: -1px;
+    }
+    
+    .letter-spaccing-xs{
+        letter-spacing: -1.5px;
+    }
+    
+    .letter-spaccing-s{
+        letter-spacing: 0.2px;
+    }
 }
 
-
 @media screen and (max-width: 991px) {
- 
+    h1{
+        font-size: 42px;
+    }
     
     h2{
-        font-size: 38px;
+        font-size: 40px;
     }
 
     h4{
-        font-size: 25px;
+        font-size: 24px;
     }
 
     h5{
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .font-size-sm-10{
         font-size: 10px!important;
+    }
+    .font-size-sm-11{
+        font-size: 11px!important;
+    }
+
+    .font-size-sm-12{
+        font-size: 12px!important;
     }
 
     .font-size-sm-13{
         font-size: 13px!important;
     }
 
+    .font-size-sm-14{
+        font-size: 14px!important;
+    }
+
+    .font-size-sm-15{
+        font-size: 15px!important;
+    }
+
+
     .font-size-sm-16{
         font-size: 16px!important;
     }
 
-    .font-size-sm-38{
-        font-size: 38px!important;
+    .font-size-sm-20{
+        font-size: 20px!important;
     }
-    
+
+
+    .letter-sm-spacing{
+        letter-spacing: -2.3px!important;
+    }
+
+.line-sm-height{
+    line-height: 20px;
+}
+
+.line-sm-height-2{
+    line-height: 33px;
+}
 }
