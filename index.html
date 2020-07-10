@@ -32,85 +32,92 @@
 
   <link rel="stylesheet" type="text/css" href="style/style.css">
   <link rel="stylesheet" type="text/css" href="style/font.css">
-  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="style/index.css">
+
+  <title>KSEL Advokati</title>
 </head>
 
 <body>
   <div class="conteiner-fluid mx-lg-5 mb-lg-5">
-    <div class="mx-1 mx-lg-5">
-      <div class="row m-0 d-flex justify-content-center px-lg-3">
-        <div class="col-12 col-lg-10 px-lg-5">
-          <div class=" d-flex justify-content-lg-between py-4">
-            <div class="pl-3 pl-lg-0 pr-4 pr-lg-0">
-              <img src="images/logo.png" class="pr-5 pr-lg-0">
-            </div>
-            <nav class="navbar navbar-expand-lg navbar-light p-0">
-              <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
-                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                aria-label="Toggle navigation" id="toggle-btn">
-                <span><i class="fas fa-ellipsis-v fa-2x color-green bg-white" id="icon"></i></span>
-              </button>
-              <div class="collapse navbar-collapse p-4 rounded" id="navbarNavDropdown">
-
-                <ul class="navbar-nav order-lg-last pl-2 pl-lg-0 pb-3 pb-lg-0">
-                  <li class="nav-item  my-lg-2 d-none d-lg-inline">
-                    <span> <i class="fal fa-search fa-2x my-auto color-gray"></i></span>
-                  </li>
-                  <li class="nav-item d-flex pl-lg-5 py-2 py-lg-0">
-                    <div class="form-group my-auto">
-                      <select class="form-control text-uppercase color-green p-0 border-0">
-                        <option selected>sr</option>
-                        <option>...</option>
-                      </select>
-                    </div>
-                    <div class="form-group my-auto ml-auto d-flex d-lg-none">
-                      <input type="text"
-                        class="form-control border-0 bg-gray rounded-left-side py-2 pl-4 font-size-sm-20 font-size-24 font-weight-light letter-spaccing"
-                        placeholder="Traži" id="search">
-                      <span class="input-group-text  border-0 rounded-right-side pr-4 pr-lg-5"><i
-                          class="fal fa-search fa-lg my-auto color-gray"></i></span>
-                    </div>
-                  </li>
-                </ul>
-                <ul class="navbar-nav px-2 px-lg-0 order-lg-first">
-                  <li class="nav-item my-lg-2 d-flex color-green">
-                    <a class="nav-link px-0 px-lg-3 p-0 color-green my-auto font-size-sm-20" href="#">Naša
-                      specijalnost</a>
-                    <p class="m-0 color-green my-auto d-none d-lg-inline">|</p>
-                  </li>
-                  <li class="nav-item my-1 my-lg-2 d-flex ">
-                    <a class="nav-link px-0 px-lg-3 p-0 color-green my-auto font-size-sm-20" href="#">Naš tim</a>
-                    <p class="m-0 color-green my-auto d-none d-lg-inline">|</p>
-                  </li>
-                  <li class="nav-item my-lg-2 d-flex ">
-                    <a class="nav-link px-0 px-lg-3 p-0 color-green my-auto font-size-sm-20" href="#">Vesti</a>
-                    <p class="m-0 color-green my-auto d-none d-lg-inline">|</p>
-                  </li>
-                  <li class="nav-item my-1 my-lg-2 d-flex ">
-                    <a class="nav-link px-0 px-lg-3 p-0 color-green my-auto font-size-sm-20" href="#">Karijera</a>
-                    <p class="m-0 color-green my-auto d-none d-lg-inline">|</p>
-                  </li>
-                  <li class="nav-item my-lg-2 d-flex ">
-                    <a class="nav-link px-0 px-lg-3 p-0 color-green my-auto font-size-sm-20" href="#">O nama</a>
-                    <p class="m-0 color-green my-auto d-none d-lg-inline">|</p>
-                  </li>
-                  <li class="nav-item my-1 my-lg-2 d-flex ">
-                    <a class="nav-link px-0 px-lg-3 p-0 color-green my-auto font-size-sm-20" href="#">Kontakt</a>
-                  </li>
-                </ul>
+    <div class="mx-1 mx-lg-5 pb-lg-5">
+      <header>
+        <div class="row m-0 d-flex justify-content-center px-lg-3">
+          <div class="col-12 col-lg-10 px-lg-5">
+            <div class="d-flex justify-content-lg-between py-4 py-lg-2">
+              <div class="pl-3 pl-lg-0 pr-4 pr-lg-0 d-flex">
+                <a href="#" class="d-flex pl-lg-2 pr-3 pr-lg-0">
+                  <img src="images/logo.png" class="pr-5 pr-lg-0 my-auto img-fluid">
+                </a>
               </div>
-            </nav>
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                  data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                  aria-label="Toggle navigation" id="toggle-btn">
+                  <span><i class="fas fa-ellipsis-v fa-2x color-green bg-white" id="icon"></i></span>
+                </button>
+                <div class="collapse navbar-collapse p-4 rounded" id="navbarNavDropdown">
+                  <ul class="navbar-nav order-lg-last pl-2 pl-lg-0 pb-3 pb-lg-0">
+                    <li class="nav-item  my-lg-2 d-none d-lg-inline">
+                      <span> <i class="fal fa-search fa-2x my-auto color-gray"></i></span>
+                    </li>
+                    <li class="nav-item d-flex pl-lg-5 py-2 py-lg-0 justify-content-between">
+
+                      <div class="my-auto">
+                        <select class="form-control text-uppercase color-green p-0 border-0 font-size-sm-20 ">
+                          <option selected>sr</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="my-auto d-flex d-lg-none">
+                        <input type="text"
+                          class=" border-0 bg-gray rounded-left-side p-0 py-2 py-lg-2 pl-4 font-size-sm-16 font-size-24 font-weight-light"
+                          placeholder="Traži">
+                        <span class="input-group-text  border-0 rounded-right-side pr-lg-5">
+                          <i class="fal fa-search fa-lg my-auto color-gray"></i></span>
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="navbar-nav px-2 px-lg-0 order-lg-first" id="nav-links">
+                    <li class="nav-item py-lg-2 d-flex color-green">
+                      <a class="nav-link px-0 px-lg-3 p-0 color-green my-auto font-size-sm-20 rounded-pill"
+                        href="our-specialty.html">Naša
+                        specijalnost</a>
+                      <p class="m-0 color-green my-auto d-none d-lg-inline">|</p>
+                    </li>
+                    <li class="nav-item py-1 py-lg-2 d-flex">
+                      <a class="nav-link px-0 px-lg-3 p-0 color-green my-auto font-size-sm-20" href="#">Naš tim</a>
+                      <p class="m-0 color-green my-auto d-none d-lg-inline">|</p>
+                    </li>
+                    <li class="nav-item py-lg-2 d-flex rounded-pill">
+                      <a class="nav-link px-0 px-lg-3 p-0 color-green my-auto font-size-sm-20" href="#">Vesti</a>
+                      <p class="m-0 color-green my-auto d-none d-lg-inline">|</p>
+                    </li>
+                    <li class="nav-item py-1 py-lg-2 d-flex rounded-pill">
+                      <a class="nav-link px-0 px-lg-3 p-0 color-green my-auto font-size-sm-20" href="#">Karijera</a>
+                      <p class="m-0 color-green my-auto d-none d-lg-inline">|</p>
+                    </li>
+                    <li class="nav-item py-lg-2 d-flex rounded-pill">
+                      <a class="nav-link px-0 px-lg-3 p-0 color-green my-auto font-size-sm-20" href="#">O nama</a>
+                      <p class="m-0 color-green my-auto d-none d-lg-inline">|</p>
+                    </li>
+                    <li class="nav-item py-1 py-lg-2 d-flex rounded-pill">
+                      <a class="nav-link px-0 px-lg-3 p-0 color-green my-auto font-size-sm-20" href="#">Kontakt</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
           </div>
         </div>
-      </div>
+      </header>
       <div class="row m-0 px-lg-3 d-flex justify-content-center bg-green rounded py-lg-5">
         <div class="col-12 col-lg-10 p-0 py-lg-5 pl-lg-5">
-          <div class="row m-0">
+          <div class="row m-0 pb-lg-5">
             <div class="col-12 col-lg-6 p-0 ">
               <div class="row m-0 pl-lg-2 pr-4 pr-lg-5 pt-2 pt-lg-0">
                 <div class="pr-lg-5 pl-4 pt-4 pb-0 pb-lg-1 p-lg-0">
-                  <div class="pr-lg-5">
-                    <h5 class="m-0 letter-spaccing pl-2 pl-lg-0 line-sm-height">Zajednička advokatska kancelarija
+                  <div class="pr-5">
+                    <h5 class="m-0 letter-spacing pl-2 pl-lg-0 line-sm-height">Zajednička advokatska kancelarija
                       Mujezinović Sorajić
                       Baković</h5>
                   </div>
@@ -120,7 +127,7 @@
                 <img src="images/sm-vertical-line.png" class="img-fluid" alt="Responsive image">
               </div>
               <div class="row m-0 pl-4 pl-lg-1">
-                <h2 class="letter-spaccing-1 pl-2 pl-lg-0">Profesionalno savetovanje <br>u Vašem <br>poslovanju</h2>
+                <h2 class="letter-spacing-1 pl-2 pl-lg-0">Profesionalno savetovanje <br>u Vašem <br>poslovanju</h2>
                 <img src="images/vesti-radius.png" class="img-fluid pl-3 first-sm-line d-inline d-lg-none"
                   alt="Responsive image">
               </div>
@@ -130,8 +137,8 @@
                 </div>
                 <div
                   class="col-7 col-lg-8 offset-5 offset-lg-0 d-flex flex-column justify-content-end p-0 pt-lg-5 py-lg-4 pl-0 pl-lg-5">
-                  <h5 class="m-0 pt-3 letter-spaccing">Lorem Ipsum Dolor Sit Amet</h5>
-                  <p class="m-0 font-size-sm-11 letter-spaccing">Lorem Ipsum Dolor Sit Amet</p>
+                  <h5 class="m-0 pt-1 pt-lg-3 letter-spacing">Lorem Ipsum Dolor Sit Amet</h5>
+                  <p class="m-0 font-size-sm-11 letter-spacing">Lorem Ipsum Dolor Sit Amet</p>
                 </div>
               </div>
               <div class="row m-0 d-flex justify-content-center py-1 py-lg-3">
@@ -172,7 +179,7 @@
                 </div>
                 <div class="bg-light rounded-bottom d-flex flex-column mx-1 pr-0 pr-lg-5">
                   <div class="pr-lg-4 px-3 px-lg-0">
-                    <p class="pl-lg-5 pt-3 pt-lg-5 pb-lg-4 m-0 pr-lg-5 sagoe-print font-size-sm-13 text-center text-lg-left"
+                    <p class="pl-lg-5 pt-3 pt-lg-5 pb-lg-4 m-0 pr-lg-5 sagoe-print font-size-sm-11 text-center text-lg-left"
                       id="img-text">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                       labore
@@ -194,7 +201,7 @@
                   </ol>
                 </div>
                 <div class=" pl-5 pl-lg-1">
-                  <h5 class="pl-5 pl-lg-0 py-3 px-lg-0 p-lg-5 letter-spaccing font-size-sm-14">Saznaj više</h5>
+                  <h5 class="pl-5 pl-lg-0 py-3 px-lg-0 p-lg-5 letter-spacing font-size-sm-14">Saznaj više</h5>
                 </div>
               </div>
               <div class="pt-lg-5 d-flex flex-row-reverse ">
@@ -202,10 +209,10 @@
               </div>
             </div>
             <div class="col-12 col-lg-6 p-0 pb-3 pb-lg-0">
-              <div class="row m-0 d-flex justify-content-between py-3">
-                <div class="col-6 col-lg-5 offset-5 offset-lg-0 p-0 py-lg-3 px-lg-3">
-                  <button type="button"
-                    class="btn bg-white color-green rounded-pill py-2 py-lg-3 font-size-24 w-100 font-size-sm-16 letter-spaccing-xs">Naša
+              <div class="row m-0 d-flex justify-content-between pt-lg-3 pb-3 pb-lg-3">
+                <div class="col-5 offset-6 offset-lg-0 p-0 py-lg-3 px-lg-3">
+                  <button type="button" onclick="goToDiv()"
+                    class="btn bg-white color-green rounded-pill py-2 py-lg-3 font-size-24 w-100 font-size-sm-14 letter-spacing-15">Naša
                     specijalnost</button>
                 </div>
                 <div class="col-5 p-0 pt-lg-5 pl-lg-2 d-none d-lg-inline">
@@ -217,18 +224,18 @@
           </div>
         </div>
       </div>
-      <div class="row m-0 px-lg-3 d-flex justify-content-lg-center rounded py-lg-5 pb-4 pb-lg-0 bg-silver">
-        <div class="col-12 p-0">
+      <div class="row m-0 px-lg-3 d-flex justify-content-lg-center rounded py-lg-5 pb-4 pb-lg-0 bg-silver py-2">
+        <div class="col-12 p-0 pt-lg-5">
           <div class="row m-0 d-flex pr-2 pr-lg-0">
-            <h2 class="color-green letter-spaccing pt-4 pt-lg-5 pr-4 pr-lg-0 mx-lg-auto ml-auto ml-lg-0 pl-lg-2">Jedan
+            <h2 class="color-green letter-spacing pt-4 pt-lg-5 pr-4 pr-lg-0 mx-lg-auto ml-auto ml-lg-0 pl-lg-2">Jedan
               tim</h2>
           </div>
         </div>
         <div class="col-12 col-lg-10 pl-4 p-lg-5 px-4 px-lg-0 one-team-div-position">
-          <div class="row m-0 d-flex justify-content-between pt-4 pt-lg-5">
+          <div class="row m-0 d-flex justify-content-between pt-4 pt-lg-5 pb-lg-4">
             <div class="col-8 col-lg-5 p-0 pr-lg-5 pt-3 pt-lg-3">
               <div class="row m-0 px-lg-4">
-                <div class="col-5 col-lg-12  offset-3 offset-lg-0 p-0 py-2 py-lg-4  pl-lg-0 pr-lg-2">
+                <div class="col-5 col-lg-12  offset-2 offset-lg-0 p-0 py-2 py-lg-4  pl-lg-0 pr-lg-2">
                   <div class="d-flex">
                     <img src="images/lg-top-left-radius.png" class="img-fluid ml-auto pt-2 pt-lg-0 pr-3 pr-lg-4"
                       alt="...">
@@ -238,7 +245,7 @@
                   <h2 class="text-center color-green pt-lg-5">Jedan cilj</h2>
                 </div>
                 <div class="col-12 p-0 px-lg-3">
-                  <p class="m-0 sagoe-print text-center font-size-sm-13 letter-spaccing px-2 px-lg-0" id="one-goal">
+                  <p class="m-0 sagoe-print text-center font-size-sm-12 letter-spacing px-3 px-lg-0" id="one-goal">
                     Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -246,7 +253,7 @@
                     consequat.
                   </p>
                 </div>
-                <div class="col-12 p-0 pl-1 d-flex py-4">
+                <div class="col-12 p-0 pl-1 d-flex py-3 py-lg-4">
                   <img src="images/md-vertical-line.png" class="img-fluid mx-auto pr-lg-1 py-lg-3 d-none d-lg-inline"
                     alt="...">
                 </div>
@@ -256,7 +263,7 @@
               <div class="row m-0 input-group px-3 px-lg-0">
                 <div class="col-12 col-lg-7 p-0 pl-lg-3 pr-lg-3 d-flex flex-row">
                   <input type="text"
-                    class="form-control border-0 rounded-left-side py-3 h-100 pl-4 font-size-sm-14 font-size-24 font-weight-light letter-spaccing"
+                    class="form-control border-0 rounded-left-side py-1 py-lg-3 h-100 pl-4 font-size-sm-14 font-size-24 font-weight-light letter-spacing"
                     placeholder="Tražite nešto određeno?" id="search">
                   <span class="input-group-text bg-white border-0 rounded-right-side pr-4 pr-lg-5"><i
                       class="fal fa-search fa-2x my-auto color-gray"></i></span>
@@ -266,17 +273,17 @@
           </div>
         </div>
       </div>
-      <div class="row m-0 px-lg-3 d-flex justify-content-center rounded py-4 py-lg-5">
+      <div class="row m-0 px-lg-3 d-flex justify-content-center rounded py-2 py-lg-5" id="our-specialty-div">
         <div class="col-12 col-lg-10 p-0 p-lg-5">
-          <div class="row m-0 d-flex px-4 px-lg-0">
+          <div class="row m-0 d-flex px-4 px-lg-0 py-lg-5">
             <div class="col-12 col-lg-6 p-0">
               <div class="row m-0 ">
                 <div class="col-12 p-0 pt-4 pb-lg-3">
-                  <h1 class="color-green letter-sm-spacing letter-lg-spaccing-xxs text-center text-lg-left">Naša
+                  <h1 class="color-green letter-sm-spacing letter-lg-spaccing-xxs">Naša
                     specijalnost</h1>
                 </div>
-                <div class="col-12 p-0 pl-1 pb-2 pb-lg-3 ">
-                  <p class="m-0 sagoe-print letter-spaccing font-size-sm-12" id="our-specialty">
+                <div class="col-12 p-0 pl-lg-1 pb-2 pb-lg-4">
+                  <p class="m-0 sagoe-print letter-spacing font-size-sm-12" id="our-specialty">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -287,8 +294,7 @@
                   </p>
                 </div>
                 <div class="col-6 col-lg-5 offset-6 offset-lg-0 p-0 py-3 py-lg-5 pl-lg-1">
-                  <button type="button"
-                    class="btn bg-green text-white rounded-pill px-3 px-lg-5 py-2 py-lg-3 w-100 font-size-sm-14 font-size-24 letter-spaccing-xs">Saznaj
+                  <button type="button" class="btn bg-green text-white rounded-pill px-3 px-lg-5 py-2 py-lg-3 w-100 font-size-sm-14 font-size-24 letter-spacing-15">Saznaj
                     više</button>
                 </div>
               </div>
@@ -308,11 +314,11 @@
                     </p>
                   </div>
                   <h5 class="color-green m-0 pt-4 pl-lg-1 font-size-sm-16"> Ksenija Sorajić Baković</h5>
-                  <p class="sagoe-print m-0 pl-lg-1">Advokat</p>
+                  <p class="sagoe-print m-0 pl-lg-1 font-size-sm-12">Advokat</p>
                 </div>
               </div>
               <div class="col-3 col-lg-2 p-0 pb-4 pb-lg-5  d-flex pl-lg-2">
-                <img src="images/radius-before-women.png" class="img-fluid mt-auto pb-2 pb-lg-5" alt="...">
+                <img src="images/radius-before-women.png" class="img-fluid mt-auto pb-1 pb-lg-5" alt="...">
               </div>
             </div>
           </div>
@@ -320,22 +326,22 @@
       </div>
       <div class="row m-0 px-4 px-lg-3 d-flex justify-content-center rounded py-lg-5 bg-green">
         <div class="col-12 col-lg-10 p-0 pb-2 pb-lg-0 p-lg-5">
-          <div class="row m-0 d-flex pt-5 pt-lg-0">
+          <div class="row m-0 d-flex pt-4 pt-lg-0 px-1 px-lg-0">
             <div class="col-12 col-lg-6 p-0 pr-lg-3">
               <div class="row m-0">
-                <div class="col-auto p-0 ">
-                  <h1 class="m-0 letter-sm-spacing letter-spaccing-lg-xxs ">Vesti</h1>
+                <div class="col-auto p-0 pt-2 pt-lg-0 pr-2 pr-lg-0">
+                  <h1 class="m-0 letter-sm-spacing letter-spacing-4">Vesti</h1>
                 </div>
-                <div class="col-auto p-0 px-4 pt-4 pb-0 pb-lg-4">
-                  <img src="images/vesti-radius.png" class="img-fluid pl-lg-3" alt="...">
+                <div class="col-3 p-0 px-2 px-lg-4 pt-4 pt-lg-5 pb-0 pb-lg-4">
+                  <img src="images/vesti.png" class="img-fluid pl-lg-3 pt-2 pt-lg-0" alt="...">
                 </div>
               </div>
               <div class="row m-0">
                 <div class="col-8 col-lg-12 p-0">
-                  <h4 class="letter-spaccing-xs line-sm-height-2">Lorem ipsum dolor sit amet</h4>
+                  <h4 class="letter-spacing-2 line-sm-height-2">Lorem ipsum dolor sit amet</h4>
                 </div>
-                <div class="col-12 p-0">
-                  <p class="m-0 pr-lg-2 letter-spaccing-s font-size-sm-12" id="news-1">Lorem ipsum dolor sit amet,
+                <div class="col-12 p-0 pt-lg-3">
+                  <p class="m-0 pr-lg-2 letter-spacing-02 font-size-sm-12" id="news-1">Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -348,7 +354,7 @@
                 </div>
               </div>
               <div class="row m-0 pt-2 pt-lg-3">
-                <div class="col-6 offset-6 p-0 pl-lg-4">
+                <div class="col-6 offset-6 p-0 pl-lg-4 pb-lg-5">
                   <div class="pl-lg-3">
                     <div class="d-flex justify-content-end border-top">
                       <a class="m-0 pt-1 pt-lg-3 text-right font-size-sm-14 font-size-15 text-white" href="#">Saznaj
@@ -366,14 +372,14 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-5 offset-lg-1 p-0 pl-lg-5 ">
+            <div class="col-12 col-lg-5 offset-lg-1 p-0 pl-lg-5 pt-3 pt-lg-0">
               <div class="pl-lg-5">
-                <div class="row m-0 pl-lg-2 pr-lg-3">
+                <div class="row m-0 pl-lg-2 pr-lg-3 ">
                   <div class="col-8 col-lg-8 p-0">
-                    <h4 class="letter-spaccing-xs line-sm-height-2">Lorem ipsum dolor sit amet</h4>
+                    <h4 class="letter-spacing-15 line-sm-height-2">Lorem ipsum dolor sit amet</h4>
                   </div>
-                  <div class="col-12 p-0 pb-lg-3">
-                    <p class="m-0 pr-2 letter-spaccing font-size-sm-12" id="news-2">Lorem ipsum dolor sit amet,
+                  <div class="col-12 p-0 py-lg-3">
+                    <p class="m-0 pr-2 letter-spacing font-size-sm-12" id="news-2">Lorem ipsum dolor sit amet,
                       consectetur adipiscing elit, sed do eiusmod tempor
                       incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -394,12 +400,12 @@
                     </div>
                   </div>
                 </div>
-                <div class="row m-0 pl-lg-2 pr-lg-3 pt-lg-5">
+                <div class="row m-0 pl-lg-2 pr-lg-3 pt-3 pt-lg-5">
                   <div class="col-8 col-lg-8 p-0">
-                    <h4 class="letter-spaccing-xs line-sm-height-2">Lorem ipsum dolor sit amet</h4>
+                    <h4 class="letter-spacing-15 line-sm-height-2">Lorem ipsum dolor sit amet</h4>
                   </div>
-                  <div class="col-12 p-0 pb-lg-3">
-                    <p class="m-0 pr-2 letter-spaccing font-size-sm-12" id="news-3">Lorem ipsum dolor sit amet,
+                  <div class="col-12 p-0 py-lg-3">
+                    <p class="m-0 pr-2 letter-spacing font-size-sm-12" id="news-3">Lorem ipsum dolor sit amet,
                       consectetur adipiscing elit, sed do eiusmod tempor
                       incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -429,83 +435,86 @@
           </div>
         </div>
       </div>
-      <div class="row m-0 px-lg-3 d-flex justify-content-center rounded py-4 py-lg-5 bg-light border px-2 px-lg-0">
-        <div class="col-12 col-lg-10 p-lg-5 py-2 py-lg-0">
-          <div class="row m-0 d-flex justify-content-lg-between">
-            <div class="col-7 col-lg-3 p-0" id="footer-position">
-              <div class="row m-0">
-                <div class="col-11 col-lg-10 p-0 pt-1 pt-lg-0">
-                  <img src="images/footer.png" class="img-fluid" alt="...">
+      <footer>
+        <div class="row m-0 px-lg-3 d-flex justify-content-center rounded py-4 py-lg-5 bg-light px-2 px-lg-0">
+          <div class="col-12 col-lg-10 p-lg-5 py-2 py-lg-0">
+            <div class="row m-0 d-flex justify-content-lg-between">
+              <div class="col-7 col-lg-3 p-0" id="footer-position">
+                <div class="row m-0">
+                  <div class="col-11 col-lg-10 p-0 pt-1 pt-lg-0">
+                    <img src="images/footer.png" class="img-fluid" alt="...">
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-12 col-lg-9  p-0 d-flex flex-column align-items-lg-end ">
-              <div class="row m-0 d-flex flex-column flex-lg-row">
-                <div class="col-6 col-lg-12 offset-6 offset-lg-0  p-0">
-                  <ul class="navbar-nav d-flex flex-column flex-lg-row float-right">
-                    <li class="nav-itemmy-lg-2 px-lg-2 d-flex color-green">
-                      <a class="nav-link p-0 px-lg-1 color-green ml-auto ml-lg-0" href="#">Naša specijalnost</a>
-                    </li>
-                    <li class="nav-item  my-lg-2 d-flex ">
-                      <p class="m-0 color-green pr-1 d-none d-lg-inline">|</p>
-                      <a class="nav-link px-lg-2 p-0 color-green ml-auto ml-lg-0" href="#">Naš tim</a>
-                      <p class="m-0 color-green pl-1 d-none d-lg-inline">|</p>
-                    </li>
-                    <li class="nav-item my-lg-2 px-lg-2 d-flex ">
-                      <a class="nav-link px-1 p-0 color-green ml-auto ml-lg-0" href="#">Vesti</a>
-                    </li>
-                    <li class="nav-item  my-lg-2  d-flex ">
-                      <p class="m-0 color-green pr-1 d-none d-lg-inline">|</p>
-                      <a class="nav-link px-lg-2 p-0 color-green ml-auto ml-lg-0" href="#">Karijera</a>
-                      <p class="m-0 color-green pl-1 d-none d-lg-inline">|</p>
-                    </li>
-                    <li class="nav-item my-lg-2 d-flex px-lg-2">
-                      <a class="nav-link p-0 color-green px-lg-1 ml-auto ml-lg-0" href="#">O nama</a>
-                    </li>
-                    <li class="nav-item  my-lg-2 d-flex ">
-                      <p class="m-0 color-green d-none d-lg-inline">|</p>
-                      <a class="nav-link pr-lg-3 pl-2 p-0 color-green ml-auto ml-lg-0" href="#">Kontakt</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-12 col-lg-8 ml-auto pl-lg-5 p-0 pt-4 pt-lg-0 p-lg-3 px-lg-2">
-                  <div class=" pl-lg-2">
-                    <div class="input-group pl-lg-2 d-flex ">
+              <div class="col-12 col-lg-9  p-0 d-flex flex-column align-items-lg-end ">
+                <div class="row m-0 d-flex flex-column flex-lg-row">
+                  <div class="col-6 col-lg-12 offset-6 offset-lg-0  p-0">
+                    <ul class="navbar-nav d-flex flex-column flex-lg-row float-right">
+                      <li class="nav-itemmy my-lg-2 px-lg-2 d-flex color-green">
+                        <a class="nav-link p-0 px-lg-1 color-green ml-auto ml-lg-0" href="our-specialty.html">Naša
+                          specijalnost</a>
+                      </li>
+                      <li class="nav-item  my-lg-2 d-flex ">
+                        <p class="m-0 color-green pr-1 d-none d-lg-inline">|</p>
+                        <a class="nav-link px-lg-2 p-0 color-green ml-auto ml-lg-0" href="#">Naš tim</a>
+                        <p class="m-0 color-green pl-1 d-none d-lg-inline">|</p>
+                      </li>
+                      <li class="nav-item my-lg-2 px-lg-2 d-flex ">
+                        <a class="nav-link px-1 p-0 color-green ml-auto ml-lg-0" href="#">Vesti</a>
+                      </li>
+                      <li class="nav-item  my-lg-2  d-flex ">
+                        <p class="m-0 color-green pr-1 d-none d-lg-inline">|</p>
+                        <a class="nav-link px-lg-2 p-0 color-green ml-auto ml-lg-0" href="#">Karijera</a>
+                        <p class="m-0 color-green pl-1 d-none d-lg-inline">|</p>
+                      </li>
+                      <li class="nav-item my-lg-2 d-flex px-lg-2">
+                        <a class="nav-link p-0 color-green px-lg-1 ml-auto ml-lg-0" href="#">O nama</a>
+                      </li>
+                      <li class="nav-item  my-lg-2 d-flex ">
+                        <p class="m-0 color-green d-none d-lg-inline">|</p>
+                        <a class="nav-link pr-lg-3 pl-2 p-0 color-green ml-auto ml-lg-0" href="#">Kontakt</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-lg-8 ml-auto pl-lg-5 p-0 pt-4 pt-lg-0 p-lg-3 px-lg-2">
+                    <div class=" pl-lg-2">
+                      <div class="input-group pl-lg-2 d-flex ">
 
-                      <input type="text"
-                        class="form-control border-0 pl-lg-4 py-3 h-100 rounded-left-side font-size-24 font-size-sm-16"
-                        placeholder="Traži" id="search">
-                      <span class="input-group-text bg-white border-0 rounded-right-side pr-4"><i
-                          class="fal fa-search fa-2x my-auto color-gray pr-lg-2"></i></span>
+                        <input type="text"
+                          class="form-control border-0 pl-4 py-3 h-100 rounded-left-side font-size-24 font-size-sm-16"
+                          placeholder="Traži" id="search">
+                        <span class="input-group-text bg-white border-0 rounded-right-side pr-4"><i
+                            class="fal fa-search fa-2x my-auto color-gray pr-lg-2"></i></span>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row m-0 mt-auto w-100 pl-lg-5 pr-lg-4 d-flex">
-                <div class="col-5 col-lg-3 p-0 pl-lg-5 pr-lg-4 py-3 py-lg-0 mx-auto">
-                  <div class="d-flex justify-content-between pl-1 pr-1 pl-lg-2">
-                    <span class="rounded-circle media-icon-size d-flex">
-                      <i class="fab fa-facebook-f fa-lg text-white m-auto"></i>
-                    </span>
-                    <span class="rounded-circle media-icon-size d-flex">
-                      <i class="fab fa-linkedin-in fa-lg text-white m-auto"></i>
-                    </span>
-                    <span class="rounded-circle media-icon-size d-flex">
-                      <i class="fab fa-instagram fa-lg  text-white m-auto"></i>
-                    </span>
+                <div class="row m-0 mt-auto w-100 pl-lg-5 pr-lg-4 d-flex">
+                  <div class="col-5 col-lg-3 p-0 pl-lg-5 pr-lg-4 py-3 py-lg-0 mx-auto">
+                    <div class="d-flex justify-content-between pl-1 pr-1 pl-lg-2">
+                      <span class="rounded-circle media-icon-size d-flex">
+                        <i class="fab fa-facebook-f fa-lg text-white m-auto"></i>
+                      </span>
+                      <span class="rounded-circle media-icon-size d-flex">
+                        <i class="fab fa-linkedin-in fa-lg text-white m-auto"></i>
+                      </span>
+                      <span class="rounded-circle media-icon-size d-flex">
+                        <i class="fab fa-instagram fa-lg  text-white m-auto"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-9 p-0 pr-lg-3 sagoe-print d-flex">
+                    <p
+                      class="m-0 pr-lg-1 w-100 mt-auto ml-auto text-center text-lg-right font-size-sm-10 letter-spacing">
+                      KSEL Advokati | Sva prava zadržana, 2020. Built by Singularity.is</p>
                   </div>
                 </div>
-                <div class="col-12 col-lg-9 p-0 pr-lg-3 sagoe-print d-flex">
-                  <p
-                    class="m-0 pr-lg-1 w-100 mt-auto ml-auto text-center text-lg-right font-size-sm-10 letter-spaccing">
-                    KSEL Advokati | Sva prava zadržana, 2020. Built by Singularity.is</p>
-                </div>
               </div>
-            </div>
 
+            </div>
           </div>
         </div>
-      </div>
+      </footer>
     </div>
   </div>
   </div>

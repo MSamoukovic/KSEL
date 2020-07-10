@@ -1,0 +1,68 @@
+.img-lg-top-left-radius{
+    position: absolute;
+    padding-right:520px;
+    padding-top:140px;
+}
+
+.line-for-img{
+    position: absolute;
+    bottom: 28px;
+}
+
+.bg-image{
+    position: absolute;
+    margin-right: 150px;
+}
+
+.line-below-the-img{
+    position: absolute;
+    padding-left:220px;
+    padding-top:470px;
+}
+.background-logo{
+    position: absolute;
+    margin-left: 50px;
+    z-index: 1;
+}
+
+.img-line-before-women{
+    position: absolute;
+    padding-bottom: 80px;
+    /* margin-right: 70px; */
+
+}
+
+@media screen and (min-width: 991px) {
+    .one-team-div-position{
+        margin-top:-11rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .background-logo{
+        margin-top: 180px;
+        margin-left: 0px;
+        height:230px;
+        padding-right: 20px;
+    }
+
+    .first-sm-line{
+        position: absolute;
+        margin-left:200px;
+        margin-top:125px;
+    }
+
+    .background-sm-logo{
+        position: absolute;
+        margin-right: 50px;
+    }
+
+    .line-bellow-sm-img{
+        position: absolute;
+        margin-left:30px;
+    }
+
+    .one-team-div-position{
+        margin-top:-5rem;
+    }
+}

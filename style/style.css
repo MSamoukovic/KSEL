@@ -13,23 +13,15 @@ body{
 }
 
 .carousel-indicators .active{
-    background-color: green;
+    background-color: #1c6e26;
 }
-
 
 .carousel-indicators  {
 position: relative;
 margin-left: 0px;
 }
 
-
-.line-for-img{
-    position: absolute;
-    bottom: 28px;
-
-}
-
- .rounded-top{
+.rounded-top{
     border-top-left-radius: 3rem!important;
     border-top-right-radius: 3rem!important;
 }
@@ -65,37 +57,10 @@ margin-left: 0px;
     background-color:  #e9ecef;
 }
 
-.img-top-right-radius{
-    position: absolute;
-    z-index: 1;
-}
-
-.img-lg-top-left-radius{
-    position: absolute;
-    padding-right:520px;
-    padding-top:140px;
-
- 
-
-}
-.bg-image{
-    position: absolute;
-    margin-right: 150px;
-  
-}
-
 .input-group-text{
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-
 }
-
-.line-below-the-img{
-    position: absolute;
-    padding-left:220px;
-    padding-top:470px;
-}
-
 
 .media-icon-size{
 width: 37px;
@@ -103,94 +68,58 @@ height: 37px;
 background-color: #939498;
 }
 
-.background-logo{
+button:focus {
+    outline: none;
+}
+
+.navbar-nav > .active  {
+background-color: #1c6e26;
+
+}
+
+.navbar-nav > .active > a  {
+color: white!important;
+}
+
+.img-top-right-radius{
     position: absolute;
-    margin-left: 50px;
     z-index: 1;
 }
-
-.img-line-before-women{
-    position: absolute;
-    padding-bottom: 80px;
-    /* margin-right: 70px; */
-
-}
-
-
 
 @media screen and (min-width: 991px) {
     .rounded{
         border-radius: 3rem!important;
     }
-    .one-team-div-position{
-        margin-top:-11rem;
-    }
 }
 
 
 @media screen and (max-width: 991px) {
-    .background-logo{
-        margin-top: 190px;
-        margin-left: 0px;
-        height:230px;
-        padding-right: 20px;
-
-    }
-
-
-  
     #footer-position{
         position: absolute;
     }
 
-.first-sm-line{
-    position: absolute;
-    margin-left:200px;
-    margin-top:125px;
-}
-.rounded{
-    border-radius: 2rem!important;
-}
+    .rounded{
+        border-radius: 2rem!important;
+    }
 
-.background-sm-logo{
-    position: absolute;
-    margin-right: 50px;
-}
+    .navbar{
+        position: absolute!important;  
+        top: 0;
+        left: 0;
+        width: 100%;
+        /* z-index: 1;   */
+    }
 
-.line-bellow-sm-img{
-    position: absolute;
-    margin-left:30px;
-}
+    .navbar-light .navbar-toggler {
+        position: absolute; 
+        right: 20px;
+        top:24px; 
+        z-index: 2;
+    }
 
-.one-team-div-position{
-    margin-top:-5rem;
-}
-
-
-.navbar{
-     position: absolute!important;  
-      top: 0;
-      left: 0;
-      width: 100%;
-     /* z-index: 1;   */
-
-}
-.navbar-light .navbar-toggler {
-    position: absolute; 
-    right: 20px;
-    top:30px; 
-    z-index: 2;
-}
-.navbar-collapse {
-    /* position: absolute; */
-    background-color: white;
-    margin-top: 100px;
- 
-    z-index: 1; 
-
-}
-}
-
-button:focus {
-    outline: none;
+    .navbar-collapse {
+        background-color: white;
+        margin-top: 80px;
+        z-index: 1; 
+    }
 }

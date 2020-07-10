@@ -1,16 +1,10 @@
-.letter-spaccing-1{
-    letter-spacing: 1px;
-}
-
 ::placeholder, .color-gray{
     color: rgb(150, 152 , 154)!important;
 }
 
-
 .color-green{
     color:#1c6e26!important;
 }
-
 
 .sagoe-print{
     color:rgb(150, 152, 154)!important;
@@ -19,7 +13,6 @@
 .font-size-24{
     font-size: 24px!important;
 }
-
 
 @media screen and (min-width: 991px) {
     h1{
@@ -37,33 +30,38 @@
     h5{
         font-size: 24px;
     }
+    
+    .font-size-14{
+        font-size: 14px;
+    }
 
     .font-size-15{
         font-size: 15px;
     }
 
-    .font-size-14{
-        font-size: 14px;
-    }
-
-    .letter-lg-spaccing-xxs{
+    .letter-spacing-4{
         letter-spacing: -4px;
     }
 
-    .letter-spaccing{
-        letter-spacing: 0.4px;
+     
+    .letter-spacing-2{
+        letter-spacing: -2px;
     }
 
-    .letter-spaccing-small{
-        letter-spacing: -1px;
-    }
-    
-    .letter-spaccing-xs{
+    .letter-spacing-15{
         letter-spacing: -1.5px;
     }
-    
-    .letter-spaccing-s{
+
+    .letter-spacing-1{
+        letter-spacing: -1px;
+    }
+
+    .letter-spacing-02{
         letter-spacing: 0.2px;
+    }
+    
+    .letter-spacing{
+        letter-spacing: 0.4px;
     }
 }
 
@@ -121,11 +119,14 @@
         letter-spacing: -2.3px!important;
     }
 
-.line-sm-height{
-    line-height: 20px;
-}
+    .line-sm-height{
+        line-height: 20px;
+    }
 
-.line-sm-height-2{
-    line-height: 33px;
-}
+    .line-sm-height-2{
+        line-height: 33px;
+    }
+    .line-sm-height-3{
+        line-height: 40px;
+    }
 }
