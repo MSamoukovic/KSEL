@@ -1,32 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #logo-first-div{
     position: absolute;
     top:0;
     right: 0;
 }
 
-
 .font-size-40{
     font-size: 40px;
 }
-
-  
-@media screen and (min-width: 991px) {
-    .font-size-25{
-        font-size: 25px;
-    }
-}
-
-
-@media screen and (max-width: 991px) {
-    .font-size-sm-18{
-        font-size: 18px;
-    }
-
-} 
-
 
 .bg-light{
     background-color: rgb(241, 241, 242)!important;
 }
 
+@media screen and (min-width: 1200px) {
+    .font-size-25{
+        font-size: 25px;
+    }
+}
 
+@media screen and (max-width: 991px) {
+    .font-size-sm-18{
+        font-size: 18px;
+    }
+} 

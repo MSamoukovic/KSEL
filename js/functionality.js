@@ -1,11 +1,11 @@
 $(document).ready(function () {
     $("#toggle-btn").click(function () {
-        $("#icon").toggleClass("far fa-times");
+        $("#icon").toggleClass("fal fa-times");
     })
 });
 
 
-function goToDiv(){
-    var elmnt = document.getElementById("our-specialty-div");
-    elmnt.scrollIntoView();
-}
+// function goToDiv(id){
+//     var elmnt = document.getElementById(id);
+//     elmnt.scrollIntoView();
+// }

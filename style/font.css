@@ -2,7 +2,7 @@
     color: rgb(150, 152 , 154)!important;
 }
 
-.color-green{
+.color-green, a{
     color:#1c6e26!important;
 }
 
@@ -12,6 +12,10 @@
 
 .font-size-24{
     font-size: 24px!important;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 @media screen and (min-width: 991px) {
@@ -117,6 +121,10 @@
 
     .letter-sm-spacing{
         letter-spacing: -2.3px!important;
+    }
+
+    .letter-sm-1-spacing{
+        letter-spacing: -1px;
     }
 
     .line-sm-height{

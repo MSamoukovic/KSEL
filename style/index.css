@@ -14,41 +14,18 @@
     margin-right: 150px;
 }
 
-.line-below-the-img{
-    position: absolute;
-    padding-left:220px;
-    padding-top:470px;
-}
-.background-logo{
-    position: absolute;
-    margin-left: 50px;
-    z-index: 1;
-}
-
-.img-line-before-women{
-    position: absolute;
-    padding-bottom: 80px;
-    /* margin-right: 70px; */
-
-}
-
-@media screen and (min-width: 991px) {
-    .one-team-div-position{
-        margin-top:-11rem;
-    }
-}
-
 @media screen and (max-width: 991px) {
     .background-logo{
-        margin-top: 180px;
-        margin-left: 0px;
-        height:230px;
+        position: absolute;
+        margin-top: 170px;
+        margin-left: 0;
+        height:220px;
         padding-right: 20px;
     }
 
     .first-sm-line{
         position: absolute;
-        margin-left:200px;
+        margin-left:50%;
         margin-top:125px;
     }
 
@@ -59,10 +36,59 @@
 
     .line-bellow-sm-img{
         position: absolute;
-        margin-left:30px;
+        margin-left:20px;
+        margin-top: 12px;
     }
 
     .one-team-div-position{
         margin-top:-5rem;
     }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+      .background-logo {
+         position: absolute;
+        margin-top: 110px;
+        height: 280px;
+        padding-right: 40px;
+    } 
+} 
+
+
+@media screen and (min-width: 992px){
+    .one-team-div-position{
+        margin-top:-11rem;
+    }
+
+    .line-below-the-img{
+            position: absolute;
+            height: 80px;;
+            margin-left: 190px;
+            margin-top: 190px;
+    } 
+    
+    .background-logo{
+        position: absolute;
+        margin-left: 40px;
+        height: 900px;
+        z-index: 1;
+    }  
+}
+
+@media screen and (min-width: 1200px) {
+    .one-team-div-position{
+        margin-top:-11rem;
+    }
+
+    .line-below-the-img{
+        position: absolute;
+        height: auto;
+        margin-top: 90px;
+        margin-left: 210px;
+    } 
+    .background-logo{
+        position: absolute;
+        margin-left: 50px;
+        z-index: 1;
+    } 
 }
