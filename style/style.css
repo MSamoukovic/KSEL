@@ -32,7 +32,7 @@ margin-left: 0px;
 
 .rounded-bottom  {
     border-bottom-left-radius: 3rem!important;
-    border-bottom-right-radius:3rem!important;
+    border-bottom-right-radius: 3rem!important;
 } 
 
 .rounded-left-side{
@@ -60,6 +60,9 @@ margin-left: 0px;
 .bg-gray{
     background-color:  #e9ecef;
 }
+.border-success{
+    border-color:  #1c6e26!important;
+}
 
 .input-group-text{
     border-top-left-radius: 0px;
@@ -67,8 +70,8 @@ margin-left: 0px;
 }
 
 .media-icon-size{
-width: 37px;
-height: 37px;
+width: 35px;
+height: 35px;
 background-color: #939498;
 }
 

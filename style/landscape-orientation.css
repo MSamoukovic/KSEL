@@ -1,0 +1,33 @@
+@media (orientation: landscape)  and (max-width: 991px){
+    #footer-position{
+        max-width:30%;
+    }
+}
+
+@media (orientation: landscape)  and (max-width: 736px){
+   
+.first-sm-line {
+    margin-left: 28%;
+    margin-top: 80px;
+}
+
+.line-bellow-sm-img {
+    width: 50%;
+} 
+
+ #goal {
+    text-align: center;
+} 
+
+#team-line{
+    margin-left: 55%;
+}
+
+#our-specialty-line{
+    max-width: 80%;
+}
+
+#news-line{
+    max-width: 10%;
+}
+}
