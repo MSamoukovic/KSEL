@@ -51,6 +51,10 @@ margin-left: 0px;
     background-color: #1c6e26;
 }
 
+.bg-secondary{
+    background-color: rgb(150, 152, 154)!important;
+}
+
 .bg-silver{
     background-image: url("../images/bg-silver.PNG");
     background-position: center;

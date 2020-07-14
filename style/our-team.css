@@ -1,0 +1,12 @@
+.ln-media-icon-size{
+    width: 10px;
+    height: 10px;
+}
+
+
+@media screen and (min-width: 991px) {
+    .fa-xs{
+       width: 40px!important;
+       height: 40px;
+    }
+}
