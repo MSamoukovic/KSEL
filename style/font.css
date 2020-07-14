@@ -43,6 +43,15 @@ a:hover{
         font-size: 15px;
     }
 
+    .font-size-25{
+        font-size: 25px!important;
+    }
+
+    .font-size-40{
+        font-size: 40px;
+    }
+
+
     .letter-spacing-4{
         letter-spacing: -4px;
     }
@@ -118,6 +127,10 @@ a:hover{
         font-size: 20px!important;
     }
 
+    .font-size-sm-40{
+        font-size: 40px!important;
+    }
+
 
     .letter-sm-spacing{
         letter-spacing: -2.3px!important;
@@ -126,6 +139,7 @@ a:hover{
     .letter-sm-1-spacing{
         letter-spacing: -1px;
     }
+  
 
     .line-sm-height{
         line-height: 20px;

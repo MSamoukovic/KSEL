@@ -60,6 +60,11 @@ margin-left: 0px;
 .bg-gray{
     background-color:  #e9ecef;
 }
+
+.bg-light{
+    background-color: rgb(241, 241, 242)!important;
+}
+
 .border-success{
     border-color:  #1c6e26!important;
 }

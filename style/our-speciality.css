@@ -8,12 +8,16 @@ html {
     right: 0;
 }
 
-.font-size-40{
-    font-size: 40px;
+.img-top-right-radius{
+    width: 500px;
 }
 
 .bg-light{
     background-color: rgb(241, 241, 242)!important;
+}
+
+.font-size-40{
+    font-size: 40px;
 }
 
 @media screen and (min-width: 1200px) {
