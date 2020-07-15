@@ -70,7 +70,6 @@
     .background-logo{
         position: absolute;
         margin-left: 40px;
-        height: 900px;
         z-index: 1;
     }  
 }

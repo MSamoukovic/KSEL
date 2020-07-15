@@ -30,3 +30,17 @@ function windowWidth(number, elementId){
         document.getElementById(elementId).innerHTML = trunc;
     }
 }
+
+function windowLgWidth(number, elementId){
+    var text  = document.getElementById(elementId).innerText;
+    if (window.innerWidth > 992)
+    {
+        var trunc = truncate (text, number);
+        document.getElementById(elementId).innerHTML = trunc;
+    }
+}
+
+// function removeBorder(id){
+//     var text  = document.getElementById(id);
+//     text.innerHTML = '';
+// }
