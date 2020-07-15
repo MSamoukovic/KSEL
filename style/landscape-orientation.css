@@ -30,4 +30,10 @@
 #news-line{
     max-width: 10%;
 }
+
+#news{
+    max-width: 60%;
+    right: 0;
+}
+
 }

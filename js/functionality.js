@@ -13,3 +13,20 @@ $(document).ready(function () {
 
     })
 });
+
+function truncate(str,number){
+    if ( str.length <= number)
+        return str;  
+    else
+        return str.slice(0, number);
+}
+
+function windowWidth(number, elementId){
+    var text  = document.getElementById(elementId).innerText;
+    console.log(text);
+    if (window.innerWidth < 992 && window.outerHeight< 992 )
+    {
+        var trunc = truncate (text, number);
+        document.getElementById(elementId).innerHTML = trunc;
+    }
+}
