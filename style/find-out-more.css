@@ -1,0 +1,12 @@
+.media-icon{
+    width: 55px;
+    height: 55px;
+}
+
+@media screen and (max-width: 991px) {
+    .media-icon{
+        width: 30px;
+        height: 30px;
+    }
+    
+}

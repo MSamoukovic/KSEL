@@ -98,7 +98,7 @@
                                         </li>
                                         <li class="nav-item py-lg-2 d-flex rounded-pill">
                                             <a class="nav-link px-0 px-lg-1 px-xl-3 p-0 color-green my-auto font-size-sm-20"
-                                                href="#">Vesti</a>
+                                                href="news.html">Vesti</a>
                                             <p class="m-0 color-green my-auto d-none d-lg-inline">|</p>
                                         </li>
                                         <li class="nav-item py-1 py-lg-2 d-flex rounded-pill">
@@ -189,7 +189,7 @@
                 </div>
             </div>
             <a name="map-div"></a>
-            <div class="row m-0 d-flex justify-content-center rounded  bg-danger">
+            <div class="row m-0 d-flex justify-content-center rounded">
                 <iframe class="rounded w-100" id="map"
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2830.2577538672163!2d20.45189943792719!3d44.81631334563006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x99309551b4e6f81f!2z0KHRgNC_0YHQutCwINCw0LrQsNC00LXQvNC40ZjQsCDQvdCw0YPQutCwINC4INGD0LzQtdGC0L3QvtGB0YLQuA!5e0!3m2!1sen!2sba!4v1594804212754!5m2!1sen!2sba"
                     frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
@@ -229,7 +229,7 @@
                                             <p class="m-0 color-green pl-1 d-none d-lg-inline">|</p>
                                         </li>
                                         <li class="nav-item my-lg-2 px-lg-2 d-flex ">
-                                            <a class="nav-link px-1 p-0 color-green ml-auto ml-lg-0" href="#">Vesti</a>
+                                            <a class="nav-link px-1 p-0 color-green ml-auto ml-lg-0" href="news.html">Vesti</a>
                                         </li>
                                         <li class="nav-item  my-lg-2  d-flex ">
                                             <p class="m-0 color-green pr-1 d-none d-lg-inline">|</p>
@@ -295,25 +295,3 @@
 <script src="js/news.js"></script>
 
 </html>
-
-
-
-<script>
-    // Initialize and add the map
-    function initMap() {
-        // The location of Uluru
-        var uluru = { lat: -25.344, lng: 131.036 };
-        // The map, centered at Uluru
-        var map = new google.maps.Map(
-            document.getElementById('map'), { zoom: 4, center: uluru });
-        // The marker, positioned at Uluru
-        var marker = new google.maps.Marker({ position: uluru, map: map });
-    }
-</script>
-<!--Load the API from the specified URL
-        * The async attribute allows the browser to render the page while the API loads
-        * The key parameter will contain your own API key (which is not needed for this tutorial)
-        * The callback parameter executes the initMap() function
-        -->
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-</script>
