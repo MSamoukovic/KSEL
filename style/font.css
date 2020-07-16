@@ -83,6 +83,10 @@ a:hover{
     .letter-spacing{
         letter-spacing: 0.4px;
     }
+
+    .letter-spacing1{
+        letter-spacing: 0.8px;
+    }
 }
 
 @media screen and (max-width: 991px) {

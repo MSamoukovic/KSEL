@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#toggle-btn").click(function () {
-        $("#icon").toggleClass("fal fa-times");
+        $("#icon").toggleClass("fal fa-times new-icon-size py-2 color-gray");
         var toggleBtn = document.getElementById("toggle-btn");
         setTimeout(() => {
             toggleBtn.disabled = false;
@@ -23,7 +23,6 @@ function truncate(str,number){
 
 function windowWidth(number, elementId){
     var text  = document.getElementById(elementId).innerText;
-    console.log(text);
     if (window.innerWidth < 992 && window.outerHeight< 992 )
     {
         var trunc = truncate (text, number);
@@ -39,8 +38,3 @@ function windowLgWidth(number, elementId){
         document.getElementById(elementId).innerHTML = trunc;
     }
 }
-
-// function removeBorder(id){
-//     var text  = document.getElementById(id);
-//     text.innerHTML = '';
-// }
