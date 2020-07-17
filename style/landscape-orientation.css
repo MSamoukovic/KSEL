@@ -2,6 +2,17 @@
     #footer-position{
         max-width:30%;
     }
+
+    #logo-landscape-size{
+        width: 70%;
+    }
+}
+
+@media (orientation: landscape)  and (max-width: 740px){
+    #find-out-more-line{
+        width: 60%;
+        margin-left: 25%;
+    }
 }
 
 @media (orientation: landscape)  and (max-width: 767px){
