@@ -1,14 +1,16 @@
-@media (orientation: landscape)  and (max-width: 991px){
+  @media (orientation: landscape)  and (max-width: 991px){
     #footer-position{
         max-width:30%;
-    }
-
-    #logo-landscape-size{
+    } 
+  }
+    /* #logo-landscape-size{
         width: 70%;
-    }
+    } 
 }
 
-@media (orientation: landscape)  and (max-width: 740px){
+*/
+
+@media (orientation: landscape)  and (max-width: 767px){
     #find-out-more-line{
         width: 60%;
         margin-left: 25%;
@@ -16,7 +18,7 @@
 }
 
 @media (orientation: landscape)  and (max-width: 767px){
-   
+/*    
 .first-sm-line {
     margin-left: 28%;
     margin-top: 80px;
@@ -24,19 +26,19 @@
 
 .line-bellow-sm-img {
     width: 50%;
-} 
+}  */
 
- #goal {
+ /* #goal {
     text-align: center;
-} 
+}  */
 
-#team-line{
+/* #team-line{
     margin-left: 55%;
 }
 
 #our-specialty-line{
     max-width: 80%;
-}
+}  */
 
 #news-line{
     max-width: 10%;
@@ -46,4 +48,5 @@
     max-width: 60%;
     right: 0;
 }
-}
+
+} 

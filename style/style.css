@@ -118,6 +118,11 @@ input:focus{
     .border-lg-top{
         border-top:solid 1px silver;
     }
+
+    .px-xl{
+        padding-left: 3rem!important;
+        padding-right: 3rem!important;
+    }
 }
 
 
@@ -167,5 +172,32 @@ input:focus{
     .fa-ellipsis-v{
         font-size: 2.2rem;
         color: #1c6e26;;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1450px) {
+    .mx-xl-5{
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+     .mx-lg-5{
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    } 
+    .p-xl-5{
+        padding-left: 0px!important ;
+        padding-right: 0px!important ;
+    }
+
+    .px-xl{
+        padding-right: 0px!important;
+        padding-left:0px!important;
+    }
+    .pl{
+        padding-left: 0px!important;
+    }
+
+    .pr{
+        padding-right: 0px!important;
     }
 }
